@@ -1,0 +1,11 @@
+endpoints:
+  - name: webhookrelay
+    backendBasepath: http://webhookrelay:8080
+    cors:
+      allowOrigins:
+        - "*"
+      allowMethods:
+        - GET
+        - POST
+      allowHeaders:
+        - Content-Type
